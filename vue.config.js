@@ -17,5 +17,6 @@ module.exports = defineConfig({
       library: 'vue3',
       chunkLoadingGlobal: `webpackJsonp_${name}`
     }
-  }
+  },
+  publicPath: 'http://localhost:4001'
 })
